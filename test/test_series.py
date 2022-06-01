@@ -26,7 +26,7 @@ def test_lucas1():
     assert actual == expected
 
 def test_lucas2():
-    actual = lucas(5)
-    expected = 11
+    actual = lucas(1)
+    expected = 1
     assert actual == expected
 
