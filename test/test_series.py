@@ -44,3 +44,16 @@ def test_sum_series1():
     actual = sum_series(0)
     expected = 0
     assert actual == expected
+
+# [2] = 2+2
+def test_sum_series2():
+    actual = sum_series(2,2,2)
+    expected = 4
+    assert actual == expected
+
+
+# [4] = 3+4
+def test_sum_series3():
+    actual = sum_series(4,2,1)
+    expected = 7
+    assert actual == expected
