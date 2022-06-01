@@ -33,7 +33,7 @@ def test_lucas2():
     assert actual == expected
 
 
-def test_lucas2():
+def test_lucas3():
     actual = lucas(5)
     expected = 11
     assert actual == expected

@@ -10,4 +10,5 @@ def lucas(n):
         return 2
     elif n == 1:
         return 1
-
+    elif n > 1:
+        return lucas(n-1)+lucas(n-2)
