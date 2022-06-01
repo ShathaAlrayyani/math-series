@@ -1,5 +1,5 @@
 import pytest
-from math_series.series import fibonacci,lucas
+from math_series.series import fibonacci, lucas
 
 
 def test_fibonacci1():
@@ -19,14 +19,21 @@ def test_fibonacci3():
     expected = 13
     assert actual == expected
 
+
 # Tests for lucas function:
 def test_lucas1():
     actual = lucas(0)
     expected = 2
     assert actual == expected
 
+
 def test_lucas2():
     actual = lucas(1)
     expected = 1
     assert actual == expected
 
+
+def test_lucas2():
+    actual = lucas(5)
+    expected = 11
+    assert actual == expected
