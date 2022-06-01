@@ -1,5 +1,5 @@
 import pytest
-from math_series.series import fibonacci
+from math_series.series import fibonacci,lucas
 
 
 def test_fibonacci1():

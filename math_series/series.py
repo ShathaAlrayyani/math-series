@@ -6,3 +6,5 @@ def fibonacci(n):
 
 
 
+def lucas(n):
+    return n
