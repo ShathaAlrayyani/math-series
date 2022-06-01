@@ -37,3 +37,10 @@ def test_lucas3():
     actual = lucas(5)
     expected = 11
     assert actual == expected
+
+
+# Tests for sum_series function
+def test_sum_series1():
+    actual = sum_series(0)
+    expected = 0
+    assert actual == expected
