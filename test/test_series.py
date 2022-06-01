@@ -2,19 +2,25 @@ import pytest
 from math_series.series import fibonacci
 
 
-def test_1():
+def test_fibonacci1():
     actual = fibonacci(1)
     expected = 1
     assert actual == expected
 
 
-def test_2():
+def test_fibonacci2():
     actual = fibonacci(3)
     expected = 2
     assert actual == expected
 
 
-def test_3():
+def test_fibonacci3():
     actual = fibonacci(7)
     expected = 13
+    assert actual == expected
+
+# Tests for lucas function:
+def test_lucas1():
+    actual = lucas(0)
+    expected = 2
     assert actual == expected
