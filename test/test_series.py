@@ -5,3 +5,10 @@ def test_one():
     actual = fibonacci(1)
     expected = 1
     assert actual == expected
+
+
+def test_2():
+    actual = fibonacci(3)
+    expected = 1
+    assert actual == expected
+    
